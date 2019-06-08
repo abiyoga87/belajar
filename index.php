@@ -7,8 +7,8 @@ copyright @ medantechno.com
 
 require_once('./line_class.php');
 
-$channelAccessToken = 'YOUR-CHANNEL-ACCESS-TOKEN'; //sesuaikan 
-$channelSecret = 'YOUR-CHANNEL-SECRET-CODE';//sesuaikan
+$channelAccessToken = 'YOUR-CHANNEL-ACCESS-TOKEN'; //5Cv467QeyzFQNkaD47rkAN9vQMmxhushDlIZgD8BXsIiuFDuf8pOQOT7MWnmEGoiOFbNoG0emVE4TwE8azz9XkEK9mKe5c2da5k0uxKnl6e9VR3R08mjhY1mP1Zx/0875OkSkY73cHC+d8wwJkwfogdB04t89/1O/w1cDnyilFU=
+$channelSecret = 'YOUR-CHANNEL-SECRET-CODE';//d993376eb9dd1dbdba88965bbd2e1c29
 
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
 $userId 	= $client->parseEvents()[0]['source']['userId'];
